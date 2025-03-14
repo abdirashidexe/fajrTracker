@@ -1,0 +1,61 @@
+body
+{
+    background-color: rgb(52, 68, 48);
+    color:white;
+    text-align: center;
+    font-family: poppins;
+    font-size: larger;
+}
+
+#rangeSlider
+{
+    accent-color: rgb(255, 255, 255);
+}
+
+label
+{
+    display:block;
+}
+
+.form-stuff
+{
+    margin-bottom: 30px;
+    background-color: rgb(24, 24, 24);
+}
+
+button
+{
+    color:black;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    width:100px;
+    height: 25px;
+    font-size: medium;
+    box-shadow: 0px 0px 5px 2px rgb(0, 0, 0, .2);
+    
+}
+
+.submissionBox
+{
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width:50%;
+    margin:auto; /* actually center */
+    border:none;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 2px rgb(0, 0, 0, .2);   
+    overflow: hidden; /* Ensure border-radius applies correctly */
+}
+
+.submissionBox p
+{
+    margin-top: 0;
+    margin-bottom: 0; /* Remove vertical spacing */
+}
+
+.submissionBox p:last-child {
+    margin-bottom: 30px; /* Add space below the last <p> element */
+}
